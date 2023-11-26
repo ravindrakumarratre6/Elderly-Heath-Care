@@ -1,0 +1,91 @@
+/* TestiMonial.css
+
+.testimonial-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonial-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial-list li {
+  flex: 1;
+  max-width: 250px;
+  text-align: left;
+  margin: 20px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating p {
+  margin-left: 5px;
+}
+
+.arrow-icon-left {
+  margin: 20px 10px 0 0;
+  font-size: 24px;
+  color: blue;
+}
+.arrow-icon-right{
+  margin: 20px 0 0 10px;
+  font-size: 24px;
+  color: blue;
+} */
+
+/* TestiMonial.css */
+
+.testimonial-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonial-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.testimonial-list li {
+  flex: 1;
+  max-width: 300px;
+  text-align: left;
+  margin: 20px;
+}
+
+.testimonial-list li img {
+  width: 100%;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating svg {
+  color: #ffd700; /* Gold color for stars */
+  margin-right: 5px;
+}
+
+.arrow-icon-left{
+  margin: 20px 10px 0 0;
+  font-size: 24px;
+  color: blue;
+  cursor: pointer;
+}
+.arrow-icon-right {
+  margin: 20px 0 0 10px;
+  font-size: 24px;
+  color: blue;
+  cursor: pointer;
+  
+}
+
