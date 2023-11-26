@@ -1,0 +1,24 @@
+/* Contact.css */
+
+.contact-container {
+width: 100%;
+height:570px;
+}
+
+.contact-form {
+  max-width: 470px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px gray;
+}
+
+input,
+select,
+textarea {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+

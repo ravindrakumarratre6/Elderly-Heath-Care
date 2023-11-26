@@ -1,0 +1,51 @@
+
+/* Footer.css */
+
+.footer-main-container {
+  text-align: center;
+  /* padding: 10px; */
+}
+
+.footer-list-container {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-list {
+  flex: 1;
+  max-width: 250px;
+  text-align: left;
+}
+.footer-list img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+}
+.elderly-health-container{
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.elderly-health-list a{
+ padding: 5px;
+ font-size: 25px;
+}
+
+.about-company-list,
+.help-support-list {
+  font-size: 16px;
+  list-style: none;
+}
+
+
+hr {
+  margin: 20px 0;
+}
+
+p {
+  font-size: 14px;
+  color: #888;
+}

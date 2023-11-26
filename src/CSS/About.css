@@ -1,0 +1,52 @@
+/* Assuming this is in your "About.css" file */
+
+.about-main-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-main-container p {
+  font-size: 18px;
+  color: #333;
+}
+
+.about-main-container h1 {
+  font-size: 28px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.about-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+}
+
+.about-list {
+  width: 280px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+transform: scale(1);
+  transition: all 0.5s ;
+}
+.about-list:hover {
+transform: scale(1.1);
+
+}
+.about-list img {
+  width: 80px;
+  margin: 10px 0 10px 0;
+}
+
+.about-list h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.about-list p {
+  font-size: 16px;
+  color: #555;
+}
