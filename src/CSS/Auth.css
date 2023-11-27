@@ -20,3 +20,9 @@ form {
 button:hover {
   background-color: #2980b9;
 }
+
+@media screen and (max-width: 768px) {
+  .auth-container {
+    margin: 20px auto;
+  }
+}

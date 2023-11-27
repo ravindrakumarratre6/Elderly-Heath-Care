@@ -36,3 +36,16 @@
   margin-top: 10px;
   color:gray;
 }
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .service-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+  }
+
+  .service-list {
+    width: 100%; /* Take full width on smaller screens */
+    margin: 5px auto;
+  }
+}

@@ -97,3 +97,10 @@
 }
 
 /* Add additional styles as needed */
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .finddoctor-details {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+  }
+}

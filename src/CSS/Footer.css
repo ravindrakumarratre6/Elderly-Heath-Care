@@ -49,3 +49,15 @@ p {
   font-size: 14px;
   color: #888;
 }
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .footer-list-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+  }
+
+  .footer-list {
+    max-width: 100%; /* Take full width on smaller screens */
+  }
+}

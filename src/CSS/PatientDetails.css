@@ -34,3 +34,14 @@
   font-size: 16px;
   color: rgb(2, 2, 2);
 }
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+.patients-containter{
+  width: 100%;
+}
+  .patients-list {
+    width: 100%; /* Take full width on smaller screens */
+    overflow-x: hidden;
+  }
+}

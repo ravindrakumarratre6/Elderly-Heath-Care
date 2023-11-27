@@ -93,3 +93,9 @@
   
 }
 
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .testimonial-list li {
+    max-width: 100%; /* Take full width on smaller screens */
+  }
+}

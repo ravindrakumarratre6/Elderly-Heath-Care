@@ -21,4 +21,9 @@ textarea {
   border-radius: 4px;
 }
 
-
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .contact-form {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
