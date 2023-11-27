@@ -20,6 +20,7 @@
   justify-content: space-around;
   padding: 20px;
   gap: 30px;
+
 }
 .finddoctor-list {
   list-style: none;
@@ -30,7 +31,11 @@
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  flex: 1;
+  flex: 1; 
+  transition: all 0.5s;
+}
+.finddoctor-list:hover{ 
+  transform: scale(1.1);
 }
 
 .finddoctor-list img {

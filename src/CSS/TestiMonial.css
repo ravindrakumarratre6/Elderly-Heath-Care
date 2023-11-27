@@ -52,6 +52,7 @@
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
+  transition: all 0.5s;
 }
 
 .testimonial-list li {
@@ -63,8 +64,11 @@
 
 .testimonial-list li img {
   width: 100%;
+  
 }
-
+.testimonial-list li img:hover{
+  transform: scale(1.2);
+}
 .rating {
   display: flex;
   align-items: center;

@@ -62,7 +62,7 @@ function FindDoctor() {
                 <p>({doctor.reviewCount}+ Reviews)</p>
               </div>
               <ul className="social-icons">
-                <li>
+                <li >
                   <a
                     href={doctor.socialMedia.linkedin}
                     target="_blank"
