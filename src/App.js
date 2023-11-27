@@ -34,6 +34,7 @@ function App() {
 
 const styles = {
   heading: {
+    padding:"60px",
     color: "blue",
     textAlign:"center",
     fontFamily:"font-family: 'Work Sans', sans-serif;"
